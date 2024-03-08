@@ -79,10 +79,10 @@ public class Course {
             if (studentsEnrolled[i] != null) {
                 noStudentsEnrolled = false;
                 System.out.println("Student " + (i + 1) + ":");
-                System.out.println("Name: " + studentsEnrolled[i].getName());
-                System.out.println("Address: " + studentsEnrolled[i].getAddress());
-                System.out.println("Student ID: " + studentsEnrolled[i].getStudentID());
-                System.out.println("Age: " + studentsEnrolled[i].getAge());
+                System.out.println("Nama  : " + studentsEnrolled[i].getName());
+                System.out.println("Alamat: " + studentsEnrolled[i].getAddress());
+                System.out.println("NIM.  : " + studentsEnrolled[i].getStudentID());
+                System.out.println("Umur  : " + studentsEnrolled[i].getAge());
                 System.out.println("------------------------------------");
             } else {
                 break;
